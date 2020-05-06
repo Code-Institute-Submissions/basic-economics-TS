@@ -18,6 +18,13 @@
     text-transform: uppercase;
 }
 
+.center {
+    text-align: center;
+}
+
+.inline-block {
+    display: inline-block;
+}
 
 /*----------------------------------------------------- Header -----*/
 
@@ -58,3 +65,43 @@ header {
 }
 
 /*-------------------------------------------------------Love running code end */
+
+
+/*----------------------------------------------------- Footer -----*/
+
+footer {
+    background-color: #000000;
+    color: #F8F8FF;
+    min-height: 100px;
+    margin: 0;
+    padding-top: 20px;
+}
+
+.footer-section {
+    font-family: "Playfair Display", sans-serif;
+    font-weight: 400;
+}
+
+.basic-economics-link i {
+    size: 20px;
+    color: #F8F8FF;
+    padding-left: 5px;
+    transition: all 0.35s ease-in;
+    -moz-transition: all 0.35s ease-in;
+    -webkit-transition: all 0.35s ease-in;
+    -o-transition: all 0.35s ease-in;
+}
+
+.basic-economics-link i:hover {
+    color: #FF0000;
+}
+
+.block-divider {
+    height: 2px;
+    width: 20px;
+    margin-top: 1px;
+    margin-bottom: 2px;
+    border: 0;
+    background-color:#FF0000;
+}
+
