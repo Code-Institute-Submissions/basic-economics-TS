@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:wght@300;400;500;600&display=swap');
+
+/*----------------------------------------------------- Color -----*/
+
+.bg-color-heading-book {
+    background-color: #000000;
+}
+
+.bg-color-heading-name {
+    background-color: #DC143C;
+}
+
+/*----------------------------------------------------- General styling -----*/
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+
+/*----------------------------------------------------- Header -----*/
+
+header {
+    margin: 0;
+}
+
+.heading {
+  
+}
+
+.heading-book {
+    font-family: "Playfair Display", sans-serif;
+    color: #fff;
+    margin-top: 50px;
+    text-align: center;
+
+}
+
+.heading-name {
+    font-family: "IBM Plex Serif", sans-serif;
+    font-weight: 600;
+    margin-top: 25px;
+    margin-bottom: 35px;
+    text-align: center;
+}
+
+/*----------------------------------------------------- Code bellow directly taken from the Love Running project -----*/
+
+#hero-image{
+  height: 600px;
+  width: 100%;
+  background: url("https://si.wsj.net/public/resources/images/BN-RL960_riley0_M_20170103182813.jpg") no-repeat center center;
+
+  animation-name: hero-zoom;   
+  animation-duration: 5s;
+  animation-fill-mode: forwards;
+}
+
+/*-------------------------------------------------------Love running code end */
