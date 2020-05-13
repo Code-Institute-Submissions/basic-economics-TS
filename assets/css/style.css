@@ -48,21 +48,64 @@ body {
     text-align: center;
 }
 
+
 /*----------------------------------------------------- Navbar -----*/
 
-.navbar-brand {}
+.navbar-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-bottom: 0;
+    border: 0;
+    width: 100%;
+    font-family: "IBM Plex Serif", 'Times New Roman', Times, serif;
+    background-color: #000000;
+    z-index: 1;
+}
+
+.navbar .navbar-nav a {
+    font-weight: bold;
+}
+
+/*----------------------------------------------------- Block dividers -----*/
+
+.block-divider {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 0;
+    border-top: 1px solid rgba(235, 15, 15);
+    width: 100px;
+    }
+
+
 /*----------------------------------------------------- Jumbotron -----*/
 
 .jumbotron {
-    width: 50vw;
-    background-color: rgba(0, 0, 0, 0.75);
+    margin-top: 30px;
+    background-color: rgba(0, 0, 0, 0.8);
     color: #fff;
+    border-radius: 0;
 }
 
 .jumbotron-header {
     font-family: "Playfair Display", 'Times New Roman', Times, serif;
+    font-size: 42px;
 }
 
+.callout-p {
+    font-family: "Noto+Serif", Times, serif;
+    font-size: 20px;   
+    font-weight: 500;
+
+}
+
+.callout-span {
+    color: #FF0000;
+}
+
+.navbar-text {
+    font-weight: bold;
+}
 
 /*----------------------------------------------------- Footer -----*/
 
@@ -93,13 +136,5 @@ footer {
     color: #FF0000;
 }
 
-.block-divider {
-    height: 2px;
-    width: 20px;
-    margin-top: 1px;
-    margin-bottom: 2px;
-    border: 0;
-    background-color:#FF0000;
-}
 
 
