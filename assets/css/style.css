@@ -10,9 +10,19 @@
     text-transform: uppercase;
 }
 
+.bold {
+    font-weight: 700;
+}
+
 .center {
     text-align: center;
 }
+
+/*----------------------------------------------------- Navbar -----*/
+
+.navbar-brand 
+
+
 /*----------------------------------------------------- Footer -----*/
 
 footer {

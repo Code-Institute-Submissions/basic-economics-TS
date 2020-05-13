@@ -15,13 +15,19 @@
 
 <body>
 	<nav class="navbar navbar-light bg-light navbar-expand-sm">
-		<a href="#" class="navbar-brand">Basic Economics</a>
-		<ul class="navbar-nav mr-auto">
-			<li class="active nav-item mr-2"><a href="#" class="nav-link">Hero</a></li>
-			<li class="nav-item mr-2"><a href="#" class="nav-link">Home</a></li>
-			<li class="nav-item mr-2"><a href="#" class="nav-link">About</a></li>
-			<li class="nav-item mr-2"><a href="#" class="nav-link">Newsletter</a></li>
-		</ul>
+		<a href="#" class="navbar-brand bold">Basic Economics</a>
+		<!--Code bellow is copied from the Bootstrap Whiskey drop project, both <button> and <span> element.-->
+		<button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span></button>
+
+		<div class="collapse navbar-collapse" id="navbarNavDropdown">
+			<!--Directly copied code from Whiskey drop project end-->
+			<ul class="navbar-nav mr-auto">
+				<li class="active nav-item mr-2"><a href="#" class="nav-link">Home</a></li>
+				<li class="nav-item mr-2"><a href="#" class="nav-link">About</a></li>
+				<li class="nav-item mr-2"><a href="#" class="nav-link">Newsletter</a></li>
+			</ul>
+		</div>
 		<div class="d-none d-md-block">
 			<p class="navbar-text my-auto mr-2">A Citizen's Guide to the Economy</p>
 		</div>
@@ -54,8 +60,9 @@
 						nisi
 						ut
 						aliquip ex ea commodo consequat.</p>
-					<div class="media d-none d-sm-block"><!--d-none and d-sm-block tells the browser to hid img in small screen size-->
-                    <!---Nr1 find new picture to use, nr2 center the image-->
+					<div class="media d-none d-sm-block">
+						<!--d-none and d-sm-block tells the browser to hid img in small screen size-->
+						<!---Nr1 find new picture to use, nr2 center the image-->
 						<img src="assets/images/BETS.jpg" class="rounded-circle mr-2 my-2" height="100" width="100" alt="basic economics cover">
 					</div>
 						<p>Would you like your own copy of Basic Economics?
@@ -174,14 +181,15 @@
 			</div>
 		</div>
 	</footer>
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-			integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
-		</script>
-		<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-			integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
-		</script>
-		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-			integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
-		</script>
+	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+		integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
+	</script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+		integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+	</script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+		integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+	</script>
 </body>
+
 </html>
