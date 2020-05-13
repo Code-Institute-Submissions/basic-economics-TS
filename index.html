@@ -14,29 +14,31 @@
 </head>
 
 <body>
-	<nav class="navbar navbar-light bg-light navbar-expand-sm">
-		<a href="#" class="navbar-brand bold">Basic Economics</a>
-		<!--Code bellow is copied from the Bootstrap Whiskey drop project, both <button> and <span> element.-->
-		<button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+	<div class="container-fluid navbar-container">
+		<nav class="navbar navbar-dark navbar-expand-sm">
+			<a href="#" class="navbar-brand bold">Basic Economics</a>
+			<!--Code bellow is copied from the Bootstrap Whiskey drop project, both <button> and <span> element.-->
+			<button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span></button>
 
-		<div class="collapse navbar-collapse" id="navbarNavDropdown">
-			<!--Directly copied code from Whiskey drop project end-->
-			<ul class="navbar-nav mr-auto">
-				<li class="active nav-item mr-2"><a href="#" class="nav-link">Home</a></li>
-				<li class="nav-item mr-2"><a href="#" class="nav-link">About</a></li>
-				<li class="nav-item mr-2"><a href="#" class="nav-link">Newsletter</a></li>
-			</ul>
-		</div>
-		<div class="d-none d-md-block">
-			<p class="navbar-text my-auto mr-2">A Citizen's Guide to the Economy</p>
-		</div>
-	</nav>
-	<article class="container mt-3">
+			<div class="collapse navbar-collapse" id="navbarNavDropdown">
+				<!--Directly copied code from Whiskey drop project end-->
+				<ul class="navbar-nav mr-auto">
+					<li class="active nav-item mr-2"><a href="#" class="nav-link">Home</a></li>
+					<li class="nav-item mr-2"><a href="#" class="nav-link">About</a></li>
+					<li class="nav-item mr-2"><a href="#" class="nav-link">Newsletter</a></li>
+				</ul>
+			</div>
+			<div class="d-none d-md-block">
+				<p class="navbar-text my-auto mr-2">A Citizen's Guide to the Economy</p>
+			</div>
+		</nav>
+	</div>
+	<div class="container-fluid callout-container mt-3">
 		<div class="row">
 			<div class="col-12">
 				<section class="callout jumbotron text-center">
-					<h1> A common sense guide to the economy</h1>
+					<h1 class="jumbotron-header uppercase"> A common sense guide to the economy</h1>
 					<!---May add back "Giving you a" -->
 					<p><strong>Basic Economics</strong> is a citizen's guide to economics, written for those who want to
 						understand how the
@@ -44,9 +46,11 @@
 				</section>
 			</div>
 		</div>
+	</div>
 
-		<hr>
+	<!------General book information section------->
 
+	<div class="container book-information-container">
 		<section class="book-information">
 			<div class="row">
 				<div class="col-12 col-md-8 offset-md-2 my-5">
@@ -63,16 +67,17 @@
 					<div class="media d-none d-sm-block">
 						<!--d-none and d-sm-block tells the browser to hid img in small screen size-->
 						<!---Nr1 find new picture to use, nr2 center the image-->
-						<img src="assets/images/BETS.jpg" class="rounded-circle mr-2 my-2" height="100" width="100" alt="basic economics cover">
+						<img src="assets/images/basiceconomics.jpg" class="rounded-circle mr-2 my-2" height="100" width="100" alt="basic economics cover">
 					</div>
 						<p>Would you like your own copy of Basic Economics?
 							<a href="#">click here!</a></p>
 					</div>
 				</div>
 		</section>
+	</div>
 
-		<hr>
-
+	<!----Subjects section-->
+	<div class="container subject-container">
 		<section class="subjects">
 			<div class="row">
 				<div class="col-12 my-5">
@@ -128,32 +133,8 @@
 				</div>
 			</div>
 		</section>
+	</div>
 
-
-		<!-- Features directly from Whiskey Drop project 
-		<section class="features">
-			<h2 class="uppercase">Features:</h2>
-			<div class="feature">
-				<h3>Feature 1</h3>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-					et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-					aliquip ex ea commodo consequat.</p>
-			</div>
-			<div class="feature">
-				<h3>Feature 2</h3>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-					et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-					aliquip ex ea commodo consequat.</p>
-			</div>
-			<div class="feature">
-				<h3>Feature 3</h3>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-					et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-					aliquip ex ea commodo consequat.</p>
-			</div>
-		</section>
-		 /.features -->
-	</article>
 	<footer class="container-fluid">
 		<div class="row">
 			<div class="col-sm-4">
@@ -181,6 +162,7 @@
 			</div>
 		</div>
 	</footer>
+
 	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
 		integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
 	</script>

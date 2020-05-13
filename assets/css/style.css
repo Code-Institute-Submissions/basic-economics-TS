@@ -2,9 +2,39 @@
 
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:wght@300;400;500;600&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap');
+
 /*----------------------------------------------------- Color -----*/
 
+.callout-container{
+    height: 85vh;
+
+/*----Code regarding hero image bellow copied form Whiskey Drop project---*/
+
+    background: url('../images/moneybill.jpeg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+/*--- Move code bellow to left corner like in Love running project---*/
+    display:flex;
+    align-items: center;
+    justify-content: center;
+
+/*----Code copied form Whiskey Drop project end---*/
+
+}
+
+
+.book-information-container
+
+.subject-container
+
+
 /*----------------------------------------------------- General styling -----*/
+body {
+    font-family: "Noto Serif", Times, serif;
+}
 
 .uppercase {
     text-transform: uppercase;
@@ -20,7 +50,18 @@
 
 /*----------------------------------------------------- Navbar -----*/
 
-.navbar-brand 
+.navbar-brand {}
+/*----------------------------------------------------- Jumbotron -----*/
+
+.jumbotron {
+    width: 50vw;
+    background-color: rgba(0, 0, 0, 0.75);
+    color: #fff;
+}
+
+.jumbotron-header {
+    font-family: "Playfair Display", 'Times New Roman', Times, serif;
+}
 
 
 /*----------------------------------------------------- Footer -----*/
