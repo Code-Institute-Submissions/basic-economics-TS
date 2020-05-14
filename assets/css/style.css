@@ -228,11 +228,46 @@ footer {
     -moz-transition: all 0.35s ease-in;
     -webkit-transition: all 0.35s ease-in;
     -o-transition: all 0.35s ease-in;
+
+    position: relative;
 }
 
 .basic-economics-link i:hover {
     color: #FF0000;
 }
 
+/*------------------------------------------------------ts.html page-----------------------------------------------------------*/
 
 
+/*----------------------------------------------------- Head pictures of Thomas Sowell -----*/
+
+.overlay-dark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 87.5%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.callout-container-image {
+    height: 70vh;
+    background-color: #FF0000;
+}
+
+.jumbotron-ts {
+    height: 389px;
+    width: 720px;
+    background-color: rgba(0, 0, 0, 0.0)
+}
+
+
+
+/*----------------------------------------------------- Information TS -----*/
+
+
+/*----------------------------------------------------- Other books of TS -----*/
+
+
+
+/*------------------------------------------------------newsletter.html page------------------------------------------------------*/
