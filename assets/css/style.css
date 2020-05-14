@@ -23,6 +23,7 @@
 /*----------------------------------------------------- General styling -----*/
 body {
     font-family: "Noto Serif", Times, serif;
+    text-align: center;
 }
 
 .uppercase {
@@ -37,22 +38,30 @@ body {
     text-align: center;
 }
 
-.section-header {
-    margin-top: 0;
-    margin-bottom: 0;
-    border-bottom: 0;
-    padding-bottom: 50px;
-    text-align: center;
-    font-family: "Playfair Display", 'Times New Roman', Times, serif;
-    font-weight: 300;
+/*----------------------------------------------------- Block dividers -----*/
+
+.block-divider {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 0;
+    border-top: 1px solid rgba(235, 15, 15);
+    width: 100px;
+    }
+.block-divider--black {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 0;
+    border-top: 1.5px solid #000000;
+    width: 50px;
+
 }
+
 
 /*----------------------------------------------------- Containers -----*/
 
 .content-containers {
-    padding-top: 100px;
-    padding-bottom: 100px;
-
+    padding-top: 75px;
+    padding-bottom: 75px;
 }
 
 
@@ -74,25 +83,8 @@ body {
     font-weight: bold;
 }
 
-/*----------------------------------------------------- Block dividers -----*/
 
-.block-divider {
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-    border: 0;
-    border-top: 1px solid rgba(235, 15, 15);
-    width: 100px;
-    }
-.block-divider--black {
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-    border: 0;
-    border-top: 1px solid #000000;
-    width: 100px;
-
-}
-
-/*----------------------------------------------------- Jumbotron/ Callout section-----*/
+/*----------------------------------------------------- Callout/Head of page section-----*/
 
 .callout-container{
     height: 85vh;
@@ -104,7 +96,6 @@ body {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-/*--- Move code bellow to left corner like in Love running project---*/
     display:flex;
     align-items: center;
     justify-content: center;
@@ -141,6 +132,16 @@ body {
 
 /*----------------------------------------------------- General book information section -----*/
 
+.section-header-book {
+    margin-top: 0;
+    margin-bottom: 0;
+    border-bottom: 0;
+    padding-bottom: 50px;
+    text-align: center;
+    font-family: "Playfair Display", 'Times New Roman', Times, serif;
+    font-weight: 300;
+}
+
 .book-information-text p {
     text-align: center;
 }
@@ -156,7 +157,32 @@ body {
     text-align: center;
 }
 
+.media-sm-sr i {
+    font-size: 35px;
+    text-align: center;
+    color: #FF0000;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    transition: all 0.35s ease-in;
+    -moz-transition: all 0.35s ease-in;
+    -webkit-transition: all 0.35s ease-in;
+    -o-transition: all 0.35s ease-in;
+}     
+
+ .media-sm-sr i:hover {
+    color: #000000;
+}
 /*----------------------------------------------------- Subjects section -----*/
+
+.section-header-subjects {
+    margin-top: 0;
+    margin-bottom: 0;
+    border-bottom: 0;
+    padding-bottom: 50px;
+    text-align: center;
+    font-family: "Playfair Display", 'Times New Roman', Times, serif;
+    font-weight: 400;
+}
 
 .subject-right {
     float: right;
@@ -195,7 +221,7 @@ footer {
 }
 
 .basic-economics-link i {
-    size: 20px;
+    font-size: 20px;
     color: #F8F8FF;
     padding-left: 5px;
     transition: all 0.35s ease-in;

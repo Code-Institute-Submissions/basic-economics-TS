@@ -9,11 +9,13 @@
 		type="text/css" />
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
 		integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css" type="text/css">
 	<link rel="stylesheet" href="assets/css/style.css">
 	<title>Basic Economics | Thomas Sowell</title>
 </head>
 
 <body>
+<!-------------------Navbar------------------->
 	<div class="container-fluid navbar-container">
 		<nav class="navbar navbar-dark navbar-expand-sm">
 			<a href="#" class="navbar-brand bold">Basic Economics</a>
@@ -34,6 +36,9 @@
 			</div>
 		</nav>
 	</div>
+<!-------------------/Navbar------------------->
+
+<!-------------------Callout/Head of page section----------->
 	<div class="container-fluid callout-container mt-3">
 		<div class="row">
 			<div class="col-12 col-md-8 offset-md-2">
@@ -49,13 +54,14 @@
 			</div>
 		</div>
 	</div>
+<!-------------------/Callout/Head of page----------->
 
-	<!------General book information section------->
+<!-------------------General book information section------->
 	<div class="container-wrapper">
 		<div class="container book-information-container content-containers">
 			<section class="book-information">
 				<div class="row">
-					<div class="col-12 col-md-8 offset-md-2 section-header uppercase">
+					<div class="col-12 col-md-8 offset-md-2 section-header-book uppercase">
 						<h2>What makes <strong><u>Basic Economics</u></strong> different from any other economy
 							book?</h2>
 						<!---find a way to remove underlining on mobile device-->
@@ -66,39 +72,50 @@
 							et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
 							nisi
 							ut
-							aliquip ex ea commodo consequat.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+							aliquip ex ea commodo consequat.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+							do eiusmod tempor incididunt ut
 							labore
 							et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
 							nisi
 							ut
-							aliquip ex ea commodo consequatLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+							aliquip ex ea commodo consequatLorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+							do eiusmod tempor incididunt ut
 							labore
 							et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
 							nisi
 							ut
 							aliquip ex ea commodo consequat</p>
-						<div class="media d-none d-sm-block">
+						<div class="media media d-none d-sm-block">
 							<!--d-none and d-sm-block tells the browser to hid img in small screen size-->
-							<!---Nr1 find new picture to use, nr2 center the image-->
 							<a href="https://www.amazon.com/Basic-Economics-Thomas-Sowell/dp/0465060730"
-								target="_blank">
+								target="_blank" class=" hvr-grow">
 								<img src="assets/images/basiceconomics.jpg"  class="book-cover" alt="basic economics cover">
                             </a>
+								<p>Would you like your own copy of Basic Economics?</p>
+								<p class="bold uppercase">Click the book cover above!</p>
 						</div>
-						<p>Would you like your own copy of Basic Economics?</p>
-						<p class="bold uppercase">Click the book cover above!</p>
+						<div class="media-sm-sr col-12 d-md-none">
+							<a href="https://www.amazon.com/Basic-Economics-Thomas-Sowell/dp/0465060730" target="_blank"
+								class="basic-economics-link--red">
+								<i class="fas fa-book" aria-hidden="true"></i>
+								<span class="sr-only">Link to purchase.</span>
+							</a>
+                            <p>Would you like your own copy of Basic Economics?</p>
+                            <p class="bold uppercase">Click the book icon above!</p>
+						</div>
 					</div>
 				</div>
 			</section>
 		</div>
 	</div>
+<!-------------------/General info section----------->
 
-	<!----Subjects section-->
+<!-------------------Subjects section----------->	
 	<div class="container-wrapper container-wrapper--red">
 		<div class="container subject-container content-containers">
 			<section class="subjects">
 				<div class="row">
-					<div class="col-12 section-header uppercase">
+					<div class="col-12 section-header-subjects uppercase">
 						<h2>Important sections of the book:</h2>
 					</div>
 				</div>
@@ -106,6 +123,7 @@
 					<div class="col-12 col-md-6">
 						<div class="subject-left">
 							<h3 class="subject-header uppercase">Subject 1</h3>
+                            <hr class="block-divider--black">
 							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
 								ut
 								labore
@@ -119,6 +137,7 @@
 					<div class="col-12 col-md-6">
 						<div class="subject-right">
 							<h3 class="subject-header uppercase">Subject 2</h3>
+                            <hr class="block-divider--black">
 							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
 								ut
 								labore
@@ -134,6 +153,7 @@
 					<div class="col-12 col-md-6">
 						<div class="subject-left">
 							<h3 class="subject-header uppercase">Subject 3</h3>
+                            <hr class="block-divider--black">
 							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
 								ut
 								labore
@@ -147,6 +167,7 @@
 					<div class="col-12 col-md-6">
 						<div class="subject-right">
 							<h3 class="subject-header uppercase">Subject 4</h3>
+                            <hr class="block-divider--black">
 							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
 								ut
 								labore
@@ -161,7 +182,9 @@
 			</section>
 		</div>
 	</div>
+<!-------------------/Subjects section----------->
 
+<!-------------------Footer----------->
 	<footer class="container-fluid">
 		<div class="row">
 			<div class="col-sm-4">
@@ -179,7 +202,7 @@
 				<h5 class="footer-section uppercase center">Purchase</h5>
 				<hr class="block-divider block-divider--short">
 				<p class="inline-block center">
-					Would you like to purchase your own edition of Basic Economics? Click here!
+					Would you like to purchase your own edition of Basic Economics? Click the book icon!
 					<a href="https://www.amazon.com/Basic-Economics-Thomas-Sowell/dp/0465060730" target="_blank"
 						class="basic-economics-link">
 						<i class="fas fa-book" aria-hidden="true"></i>
@@ -189,7 +212,9 @@
 			</div>
 		</div>
 	</footer>
+<!-------------------/Footer----------->
 
+<!-------------------Links to js----------->
 	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
 		integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
 	</script>
@@ -199,6 +224,7 @@
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
 		integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
 	</script>
-</body>
 
+<!-------------------/Links to js----------->
+</body>
 </html>
