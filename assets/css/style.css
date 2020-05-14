@@ -158,10 +158,25 @@ body {
 
 /*----------------------------------------------------- Subjects section -----*/
 
-.subject {
-    text-align: center;
+.subject-right {
+    float: right;
+    text-align: right;
     margin-bottom: 50px;
     
+}
+
+.subject-left {
+    float:left;
+    text-align: left;
+    margin-bottom: 50px;
+    
+}
+
+.subject-header {
+    font-family: "IBM Plex Serif";
+    font-weight: 400;
+    margin-bottom: 25px;
+    text-align: center;
 }
 
 /*----------------------------------------------------- Footer -----*/
