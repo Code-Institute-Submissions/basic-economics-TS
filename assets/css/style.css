@@ -241,11 +241,28 @@ footer {
 
 /*----------------------------------------------------- Head pictures of Thomas Sowell -----*/
 
+.callout-container-ts {
+    height: 60vh;
+
+/*----Code regarding hero image bellow copied form Whiskey Drop project---*/
+
+    background: url('../images/many-old-books.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+
+/*----Code copied form Whiskey Drop project end---*/
+}
+
 .overlay-dark {
     position: absolute;
     top: 0;
     left: 0;
-    height: 87.5%;
+    height: 62%;
     width: 100%;
     background-color: rgba(0, 0, 0, 0.5);
 }
