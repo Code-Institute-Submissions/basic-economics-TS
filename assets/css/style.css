@@ -267,7 +267,8 @@ footer {
     background-color: rgba(0, 0, 0, 0.5);
 }
 
-.callout-container-image {
+/*---- old code
+ .callout-container-image {
     height: 70vh;
     background-color: #FF0000;
 }
@@ -277,11 +278,14 @@ footer {
     width: 720px;
     background-color: rgba(0, 0, 0, 0.0)
 }
-
+*/
 
 
 /*----------------------------------------------------- Information TS -----*/
 
+.ts-image {
+    /*image needs to be center + add margin and padding*/
+}
 
 /*----------------------------------------------------- Other books of TS -----*/
 
