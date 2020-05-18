@@ -4,16 +4,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap');
 
-/*----------------------------------------------------- Color -----*/
-
-.book-information-container
-
-.subject-container 
-
-.container-wrapper {
-    
-}
-
 .container-wrapper--red {
     background-color: #FF0000;
     color: #fff;
@@ -36,6 +26,13 @@ body {
 
 .center {
     text-align: center;
+}
+
+.overlay-dark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
 /*----------------------------------------------------- Block dividers -----*/
@@ -103,6 +100,11 @@ body {
 /*----Code copied form Whiskey Drop project end---*/
 }
 
+.overlay-dark-index {
+    height: 87%;
+    width: 100%;
+}
+
 .jumbotron {
     margin-top: 30px;
     background-color: rgba(0, 0, 0, 0.8);
@@ -139,7 +141,7 @@ body {
     padding-bottom: 50px;
     text-align: center;
     font-family: "Playfair Display", 'Times New Roman', Times, serif;
-    font-weight: 300;
+    font-weight: 500;
 }
 
 .book-information-text p {
@@ -149,29 +151,30 @@ body {
 .book-cover {
     height: 280px;
     width: 180px;
-    margin-top: 25px;
-    margin-bottom: 25px;
+    margin-right: 40px;
+
 }
 
-.book-cover {
-    text-align: center;
-}
 
-.media-sm-sr i {
-    font-size: 35px;
+.btn-purchase {
+    font-size: 20px;
     text-align: center;
-    color: #FF0000;
-    padding-top: 25px;
-    padding-bottom: 25px;
+    background-color: #FF0000;
+    color: #000;
+    padding-top: 10px;
+    padding-bottom: 10px;
     transition: all 0.35s ease-in;
     -moz-transition: all 0.35s ease-in;
     -webkit-transition: all 0.35s ease-in;
     -o-transition: all 0.35s ease-in;
 }     
 
- .media-sm-sr i:hover {
-    color: #000000;
+ .btn-purchase:hover {
+    background-color: #000;
+    color: #fff;
 }
+
+
 /*----------------------------------------------------- Subjects section -----*/
 
 .section-header-subjects {
@@ -258,13 +261,9 @@ footer {
 /*----Code copied form Whiskey Drop project end---*/
 }
 
-.overlay-dark {
-    position: absolute;
-    top: 0;
-    left: 0;
+.overlay-dark-ts {
     height: 62%;
     width: 100%;
-    background-color: rgba(0, 0, 0, 0.5);
 }
 
 /*---- old code
@@ -282,6 +281,14 @@ footer {
 
 
 /*----------------------------------------------------- Information TS -----*/
+.name-header {
+    font-size: 60px;
+}
+
+.profession-header {
+    font-weight: 600;
+    text-transform: capitalize;
+}
 
 .sowell-image {
     text-align: center;
@@ -310,6 +317,10 @@ footer {
 
 /*----Code copied form Whiskey Drop project end---*/
     margin-top: 50px;
+}
+.overlay-dark-newsletter {
+    height: 130%;
+    width: 100%;
 }
 
 .jumbotron-sighup {
