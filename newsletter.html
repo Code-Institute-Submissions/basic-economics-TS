@@ -42,9 +42,27 @@
 	<div class="container-fluid callout-container mt-3">
 		<div class="row">
 			<div class="col-12 col-md-8 offset-md-2">
+            <!---Code bellow is copied from the Love Running project-->
+				<form action="https://formdump.codeinstitute.net/" method="post" class="signup-form">
+					<h2>Let's get you signed up! <i class="fas fa-book"></i></h2>
+					<label for="fname">First Name</label>
+					<input for="fname" id="fname" type="text" name="first_name" class="text-input" required>
+					<label for="lname">Last Name</label>
+					<input for="lname" id="lname" type="text" name="last_name" class="text-input" required>
+					<label for="email">Email Address</label>
+					<input for="email" id="email" type="email" name="email_address" class="text-input" required>
+					<label for="road">Road</label>
+					<input for="road" id="road" type="radio" name="running_preference" value="road" required>
+					<label for="trail">Trail</label>
+					<input for="trail" id="trail" type="radio" name="running_preference" value="trail">
+					<label for="both">Both</label>
+					<input for="both" id="both" type="radio" name="running_preference" value="both">
+					<button type="button" class="btn btn-danger btn-lg my-4">Sign Up!</button>
+                </form>
+            <!---/Copied code end-->
 			</div>
 		</div>
-	</div>		
+	</div>
 	<!-------------------/Form section----------->
 	<!-------------------Footer----------->
 	<footer class="container-fluid">
