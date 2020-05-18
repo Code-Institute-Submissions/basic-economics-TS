@@ -283,8 +283,9 @@ footer {
 
 /*----------------------------------------------------- Information TS -----*/
 
-.ts-image {
-    /*image needs to be center + add margin and padding*/
+.sowell-image {
+    text-align: center;
+    margin-bottom: 20px;
 }
 
 /*----------------------------------------------------- Other books of TS -----*/
