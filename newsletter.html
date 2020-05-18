@@ -27,9 +27,9 @@
 			<div class="collapse navbar-collapse" id="navbarNavDropdown">
 				<!--Directly copied code from Whiskey drop project end-->
 				<ul class="navbar-nav mr-auto">
-					<li class="active nav-item mr-2"><a href="index.html" class="nav-link">Home</a></li>
+					<li class="nav-item mr-2"><a href="index.html" class="nav-link">Home</a></li>
 					<li class="nav-item mr-2"><a href="ts.html" class="nav-link">About</a></li>
-					<li class="nav-item mr-2"><a href="newsletter.html" class="nav-link">Newsletter</a></li>
+					<li class="active nav-item mr-2"><a href="newsletter.html" class="nav-link">Newsletter</a></li>
 				</ul>
 			</div>
 			<div class="d-none d-md-block navbar-text">
@@ -39,27 +39,26 @@
 	</div>
 	<!-------------------/Navbar------------------->
 	<!-------------------Form section----------->
-	<div class="container-fluid callout-container mt-3">
+    <div class="container-fluid callout-container callout-container-signup">
 		<div class="row">
-			<div class="col-12 col-md-8 offset-md-2">
-            <!---Code bellow is copied from the Love Running project-->
-				<form action="https://formdump.codeinstitute.net/" method="post" class="signup-form">
-					<h2>Let's get you signed up! <i class="fas fa-book"></i></h2>
-					<label for="fname">First Name</label>
-					<input for="fname" id="fname" type="text" name="first_name" class="text-input" required>
-					<label for="lname">Last Name</label>
-					<input for="lname" id="lname" type="text" name="last_name" class="text-input" required>
-					<label for="email">Email Address</label>
-					<input for="email" id="email" type="email" name="email_address" class="text-input" required>
-					<label for="road">Road</label>
-					<input for="road" id="road" type="radio" name="running_preference" value="road" required>
-					<label for="trail">Trail</label>
-					<input for="trail" id="trail" type="radio" name="running_preference" value="trail">
-					<label for="both">Both</label>
-					<input for="both" id="both" type="radio" name="running_preference" value="both">
-					<button type="button" class="btn btn-danger btn-lg my-4">Sign Up!</button>
-                </form>
-            <!---/Copied code end-->
+			<div class="sigh-up col-12 col-md-8 offset-md-2">
+				<section class="callout jumbotron jumbotron-sighup text-center">
+					<h1 class="jumbotron-header uppercase">Would you like to get updates about Thomas Sowell and his work?</h1>
+					<hr class="block-divider">
+					<!---May add back "Giving you a" -->
+					<!---Code bellow is copied from the Love Running project-->
+						<form action="https://formdump.codeinstitute.net/" method="post" class="signup-form">
+							<h2>Let's get you signed up! <i class="fas fa-book"></i></h2>
+							<label for="fname">First Name</label>
+							<input for="fname" id="fname" type="text" name="first_name" class="text-input" required>
+							<label for="lname">Last Name</label>
+							<input for="lname" id="lname" type="text" name="last_name" class="text-input" required>
+							<label for="email">Email Address</label>
+							<input for="email" id="email" type="email" name="email_address" class="text-input" required>
+							<button type="button" class="btn btn-danger btn-lg my-4">Sign Up!</button>
+						</form>
+						<!---/Copied code end-->
+				</section>
 			</div>
 		</div>
 	</div>

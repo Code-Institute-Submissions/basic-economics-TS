@@ -292,3 +292,42 @@ footer {
 
 
 /*------------------------------------------------------newsletter.html page------------------------------------------------------*/
+
+.callout-container-signup {
+        height: 110vh;
+
+/*----Code regarding hero image bellow copied form Whiskey Drop project---*/
+
+    background: url('../images/moneybill.jpeg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+
+/*----Code copied form Whiskey Drop project end---*/
+    margin-top: 50px;
+}
+
+.jumbotron-sighup {
+    margin: 100px;
+    padding: 50px;
+}
+
+/*---Form styling bellow is copied from Code institue Love Running project---*/
+
+.text-input {
+  background-color: transparent;
+  color: #fafafa;
+  width: 100%;
+  height: 25px;
+  margin:5px 0 20px 0;
+  border: 1px solid #fafafa;
+  border-radius: 2px;
+}
+
+.text-input:hover {
+  border-color: #FF0000;
+}
