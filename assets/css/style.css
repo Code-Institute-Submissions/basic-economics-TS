@@ -141,7 +141,7 @@ body {
     padding-bottom: 50px;
     text-align: center;
     font-family: "Playfair Display", 'Times New Roman', Times, serif;
-    font-weight: 500;
+    font-weight: 300;
 }
 
 .book-information-text p {
@@ -172,6 +172,7 @@ body {
  .btn-purchase:hover {
     background-color: #000;
     color: #fff;
+    border: 1px solid #fafafa;
 }
 
 
@@ -240,8 +241,6 @@ footer {
 }
 
 /*------------------------------------------------------ts.html page-----------------------------------------------------------*/
-
-
 /*----------------------------------------------------- Head pictures of Thomas Sowell -----*/
 
 .callout-container-ts {
@@ -296,9 +295,6 @@ footer {
 }
 
 /*----------------------------------------------------- Other books of TS -----*/
-
-
-
 /*------------------------------------------------------newsletter.html page------------------------------------------------------*/
 
 .callout-container-signup {
@@ -323,7 +319,7 @@ footer {
     width: 100%;
 }
 
-.jumbotron-sighup {
+.jumbotron-signup {
     margin: 100px;
     padding: 50px;
 }
@@ -343,3 +339,4 @@ footer {
 .text-input:hover {
   border-color: #FF0000;
 }
+/*----/copied code end*/ 
