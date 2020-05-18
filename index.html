@@ -70,8 +70,8 @@
 					<div class="col-12 col-md-8 offset-md-2 book-information-text">
 						<p>In this books Thomas Sowell proves that it is possible to write intelligently about
 							economics, without graphs, charts or calculus. Which is a point of pride for Dr Sowell, why?
-							Well in his words: he wants people to read it and if you make something unreadable, people
-							aren’t going to read it! The overall economic viewpoint of the book could be summarized like
+							Well in his words: he wants people to read it! The overall economic viewpoint of the book
+							could be summarized like
 							this: “Life does not ask us what we want. It presents us with options.”. These options are
 							usually limited, and we don’t have a full plethora of things to choose from. On a surface
 							level the previous sentence may come off as negative or depressing but it isn’t: in fact, it
@@ -84,6 +84,7 @@
 							we think we have a much wider range then we have, we are going to end up making very foolish
 							mistakes.
 						</p>
+						<!---Add button remove text, "buy book"-->
 						<div class="media d-none d-sm-block">
 							<!--d-none and d-sm-block tells the browser to hid img in small screen size-->
 							<a href="https://www.amazon.com/Basic-Economics-Thomas-Sowell/dp/0465060730" target="_blank"
@@ -131,6 +132,8 @@
 								nisi
 								ut
 								aliquip ex ea commodo consequat.</p>
+							<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal1">
+                            Launch demo modal</button>
 						</div>
 					</div>
 					<div class="col-12 col-md-6">
@@ -145,6 +148,8 @@
 								nisi
 								ut
 								aliquip ex ea commodo consequat.</p>
+                                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal2">
+                            Launch demo modal</button>
 						</div>
 					</div>
 				</div>
@@ -161,6 +166,8 @@
 								nisi
 								ut
 								aliquip ex ea commodo consequat.</p>
+                                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal3">
+                            Launch demo modal</button>
 						</div>
 					</div>
 					<div class="col-12 col-md-6">
@@ -175,6 +182,8 @@
 								nisi
 								ut
 								aliquip ex ea commodo consequat.</p>
+                                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal4">
+                            Launch demo modal</button>
 						</div>
 					</div>
 				</div>
@@ -212,6 +221,89 @@
 		</div>
 	</footer>
 	<!-------------------/Footer----------->
+	<!-------------------Modals copied from Bootstrap Modal components------------>
+
+	<div class="modal fade" id="exampleModal1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+		aria-hidden="true">
+		<div class="modal-dialog modal-dialog-scrollable">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+				</div>
+				<div class="modal-body">
+					1
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+					<button type="button" class="btn btn-primary">Save changes</button>
+				</div>
+			</div>
+		</div>
+	</div>
+    <div class="modal fade" id="exampleModal2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+		aria-hidden="true">
+		<div class="modal-dialog modal-dialog-scrollable">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+				</div>
+				<div class="modal-body">
+					2
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+					<button type="button" class="btn btn-primary">Save changes</button>
+				</div>
+			</div>
+		</div>
+	</div>
+    <div class="modal fade" id="exampleModal3" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+		aria-hidden="true">
+		<div class="modal-dialog modal-dialog-scrollable">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+				</div>
+				<div class="modal-body">
+					3
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+					<button type="button" class="btn btn-primary">Save changes</button>
+				</div>
+			</div>
+		</div>
+	</div>
+    <div class="modal fade" id="exampleModal4" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+		aria-hidden="true">
+		<div class="modal-dialog modal-dialog-scrollable">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+				</div>
+				<div class="modal-body">
+					4
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+					<button type="button" class="btn btn-primary">Save changes</button>
+				</div>
+			</div>
+		</div>
+	</div>
+    <!-------------------/Modals copied from Bootstrap Modal components----------->
 
 	<!-------------------Links to js----------->
 	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
