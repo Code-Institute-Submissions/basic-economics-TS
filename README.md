@@ -153,4 +153,3 @@ me with useful extensions, shortcuts and other useful things.
 ### Acknowledgements ###
 
 * I received inspiration for this project from Dr. Sowell’s book Basic Economics, it is truly a spectacular book and I did my best with the limited amount of knowledge I have within coding to try to imitate its greatness. 
-* I received inspiration for this project from Dr. Sowell’s book Basic Economics, it is truly a spectacular book and I did my best with the limited amount of knowledge I have within coding to try to imitate its greatness. 
