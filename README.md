@@ -130,8 +130,6 @@ to do that.
 * cdnjs
      * The project uses cdnjs to add hovering effects.
 
-* HTML5
-     * The project uses HTML5 for basic content.
 
 ## Testing ##
 
