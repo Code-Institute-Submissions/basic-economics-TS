@@ -4,12 +4,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap');
 
-.container-wrapper--red {
-    background-color: #FF0000;
-    color: #fff;
-    
-}
-
 /*----------------------------------------------------- General styling -----*/
 body {
     font-family: "Noto Serif", Times, serif;
@@ -35,6 +29,13 @@ body {
     background-color: rgba(0, 0, 0, 0.5);
 }
 
+/*---- General background color---*/
+
+.container-wrapper--red {
+    background-color: #FF0000;
+    color: #fff;
+}
+
 /*----------------------------------------------------- Block dividers -----*/
 
 .block-divider {
@@ -43,24 +44,21 @@ body {
     border: 0;
     border-top: 1px solid rgba(235, 15, 15);
     width: 100px;
-    }
+}
+
 .block-divider--black {
     margin-top: 1rem;
     margin-bottom: 1rem;
     border: 0;
     border-top: 1.5px solid #000000;
     width: 50px;
-
 }
-
-
 /*----------------------------------------------------- Containers -----*/
 
 .content-containers {
     padding-top: 75px;
     padding-bottom: 75px;
 }
-
 
 /*----------------------------------------------------- Navbar -----*/
 
@@ -82,6 +80,8 @@ body {
 
 
 /*----------------------------------------------------- Callout/Head of page section-----*/
+
+/*-------------------------- Callout/Head of page section GENERAL-----*/
 
 .callout-container{
     height: 85vh;
@@ -121,7 +121,6 @@ body {
     font-family: "Noto+Serif", Times, serif;
     font-size: 20px;   
     font-weight: 500;
-
 }
 
 .callout-span {
@@ -161,7 +160,7 @@ body {
     -o-transition: all 0.35s ease-in;
 }     
 
- .btn-purchase:hover {
+.btn-purchase:hover {
     background-color: #000;
     color: #fff;
     border: 1px solid #fafafa;
@@ -182,16 +181,15 @@ body {
 
 .subject-right {
     float: right;
-    text-align: right;
+    text-align: center;
     margin-bottom: 50px;
     
 }
 
 .subject-left {
     float:left;
-    text-align: left;
+    text-align: center;
     margin-bottom: 50px;
-    
 }
 
 .subject-header {
