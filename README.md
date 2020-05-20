@@ -169,6 +169,10 @@ The Basic Economics website works on Google Chrome across different screen sizes
 * Medium screen sizes - screens above 768px in width
 * Extra small screen sizes - screens bellow 578px in width
 
+### Bugs ###
+
+There is one major bug in my project which I cannot solve no matter what I do. On my Newsletter page, the page is fine in both big and medium screen sizes, and in a small screen size everything is ok except for the fact that there on the right side of the screen there is a block of white space all along the page. I suspect that it has something to do with Bootstrap clashing with some of my own personal code, but I haven’t been able to find it. I just wanted to make a note of this so anyone checking out the website is aware. 
+
 ## Deployment ##
 
 The project is hosted on GitHub pages, published by a master branch. I used GitPod workspaces to be able to work on my project, which I accessed through GitHub, I  follow the official instructions from Code Institute in terms of download and launch. One of the things provided by the Code Institute is “gitpod-full-template” which provided me with useful extensions, shortcuts and other useful things. 
