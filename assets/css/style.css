@@ -255,21 +255,8 @@ footer {
     width: 100%;
 }
 
-/*---- old code
- .callout-container-image {
-    height: 70vh;
-    background-color: #FF0000;
-}
-
-.jumbotron-ts {
-    height: 389px;
-    width: 720px;
-    background-color: rgba(0, 0, 0, 0.0)
-}
-*/
-
-
 /*----------------------------------------------------- Information TS -----*/
+
 .name-header {
     font-size: 60px;
 }
