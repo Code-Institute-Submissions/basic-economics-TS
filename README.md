@@ -194,11 +194,11 @@ The project is hosted on GitHub pages, published by a master branch. I used GitP
 
 
 ### Media ###
-The photos used where obtained from:
-* ![Dollar bill](https://www.needpix.com/photo/1897416/money-banknote-cash-finance-currency-business-dollar-bank-financial) 
-* ![Books](https://libreshot.com/many-old-books/) 
-* ![Book cover](https://images-na.ssl-images-amazon.com/images/I/41FvT-msa7L._SX354_BO1,204,203,200_.jpg) 
-* ![Thomas Sowell](https://si.wsj.net/public/resources/images/BN-RL960_riley0_M_20170103182813.jpg) 
+From:
+[Needpix](https://www.needpix.com/photo/1897416/money-banknote-cash-finance-currency-business-dollar-bank-financial): ![Dollar bill](https://i.imgur.com/ehgXvRZ.jpg) 
+From: [Libreshot](https://libreshot.com/many-old-books/)![Books](https://i.imgur.com/Bmz0mTv.jpg)
+![Book cover](https://images-na.ssl-images-amazon.com/images/I/41FvT-msa7L._SX354_BO1,204,203,200_.jpg) 
+![Thomas Sowell](https://si.wsj.net/public/resources/images/BN-RL960_riley0_M_20170103182813.jpg) 
 
 Icons: All icons are copied from Font Awesome. 
 
