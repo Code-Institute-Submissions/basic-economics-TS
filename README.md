@@ -31,9 +31,9 @@ form. All of my initial sketches did however provide a clear direction
 of where I wanted to go in terms of colour pallet and design of 
 navigation bar and footer element.
 
-![Sketch one](https://imgur.com/XenPQu1)
-![Sketch two](https://imgur.com/EC5qNrs)
-![Sketch Three](https://imgur.com/8VVYnDg)
+![Sketch one](https://i.imgur.com/YeIb9Oq.jpg)
+![Sketch two](https://i.imgur.com/JURX0X3.jpg)
+![Sketch Three](https://i.imgur.com/SAc854T.jpg)
 
 ## UI ##
 The color palette of my entire page is designed to replicate the colour palette on the front of the fourth edition of Basic Economics by Thomas Sowell. 
@@ -195,10 +195,10 @@ The project is hosted on GitHub pages, published by a master branch. I used GitP
 
 ### Media ###
 The photos used where obtained from:
-* ![Dollar bill](../images/moneybill.jpeg) - [Needpix](https://www.needpix.com/photo/1897416/money-banknote-cash-finance-currency-business-dollar-bank-financial)
-* ![Books](../images/many-old-books.jpg) - [Libreshot](https://libreshot.com/many-old-books/)
-* ![Book cover](../images/basiceconomics.jpg) - [Amazon](https://images-na.ssl-images-amazon.com/images/I/41FvT-msa7L._SX354_BO1,204,203,200_.jpg)
-* ![Thomas Sowell](../images/thomas-sowell-3.jpg) - [WSJ](https://si.wsj.net/public/resources/images/BN-RL960_riley0_M_20170103182813.jpg)
+* ![Dollar bill](https://www.needpix.com/photo/1897416/money-banknote-cash-finance-currency-business-dollar-bank-financial) 
+* ![Books](https://libreshot.com/many-old-books/) 
+* ![Book cover](https://images-na.ssl-images-amazon.com/images/I/41FvT-msa7L._SX354_BO1,204,203,200_.jpg) 
+* ![Thomas Sowell](https://si.wsj.net/public/resources/images/BN-RL960_riley0_M_20170103182813.jpg) 
 
 Icons: All icons are copied from Font Awesome. 
 
