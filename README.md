@@ -31,9 +31,9 @@ form. All of my initial sketches did however provide a clear direction
 of where I wanted to go in terms of colour pallet and design of 
 navigation bar and footer element.
 
-![Sketch one]('../images/TS1.jpg')
-![Sketch two]('../images/TS2.jpg')
-![Sketch Three]("../images/TS3.jpg")
+![Sketch one](https://imgur.com/XenPQu1)
+![Sketch two](https://imgur.com/EC5qNrs)
+![Sketch Three](https://imgur.com/8VVYnDg)
 
 ## UI ##
 The color palette of my entire page is designed to replicate the colour palette on the front of the fourth edition of Basic Economics by Thomas Sowell. 
