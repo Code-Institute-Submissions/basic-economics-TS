@@ -175,7 +175,17 @@ There is one major bug in my project which I cannot solve no matter what I do. O
 
 ## Deployment ##
 
-The project is hosted on GitHub pages, published by a master branch. I used GitPod workspaces to be able to work on my project, which I accessed through GitHub, I  follow the official instructions from Code Institute in terms of download and launch. One of the things provided by the Code Institute is “gitpod-full-template” which provided me with useful extensions, shortcuts and other useful things. 
+The project is hosted on GitHub pages, published by a master branch. I used GitPod workspaces to be able to work on my project, which I accessed through GitHub, I  follow the official instructions from Code Institute in terms of download and launch. One of the things provided by the Code Institute is [“gitpod-full-template”](https://github.com/Code-Institute-Org/gitpod-full-template) which provided me with useful extensions, shortcuts and other useful things. 
+
+If you would like to download and work on this project separately, make sure to:
+1.	GitPod is installed on your local system
+1.	Go into JosefinE7  repositories
+1.	Click onto the: basic-economics-TS repository 
+1.	Click git clone or download
+1.	Open the project up in your own workspace
+1.	Write a git add command: git add . in terminal
+1.	Write a commit message: git commit -m “XXX”
+1.	Write git push 
 
 ## Credits ##
 
